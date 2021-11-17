@@ -20,8 +20,8 @@ class Node:
       for i in range(1, len(self.children)):
         self.children[i].children = self.children[0].children[:]
         
-  def prety_print(self, current_layer_number, node_per_layer_map):
-    indent = '    ' * current_layer_number
+   def prety_print(self, current_layer_number, node_per_layer_map):
+     indent = '    ' * current_layer_number
     
     if current_layer_number >= len(node_per_layer_map):
       print(f"{indent} {self_node_name}"
