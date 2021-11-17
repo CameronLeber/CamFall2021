@@ -25,7 +25,7 @@ class Node:
     
      if current_layer_number >= len(node_per_layer_map):
          print(f"{indent} {self_node_name}")
-      return
+         return
                
     print(f"{indent} {self.node_name} is connected to:")
     for i in range(len(self.children) ):
