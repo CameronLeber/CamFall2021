@@ -1,7 +1,7 @@
 import random
 import string
 
-NODE_COUNT_PER_LAYER = {4, 3, 2}
+NODE_COUNT_PER_LAYER[] = {4, 3, 2}
 
 class Node:
    def __init__(self):
