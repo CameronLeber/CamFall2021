@@ -47,14 +47,10 @@ class Node:
        self.children[i].set_random_weights(current_layer_number + 1, node_per_layer_map)
      return
                                    
-new_node = Node()
+new_node = Node() #creates class variable
                                                                  
-new_node.make_children(0, NODE_COUNT_PER_LAYER)
-                                    
-#new_node.prety_print(0, NODE_COUNT_PER_LAYER)
+new_node.make_children(0, NODE_COUNT_PER_LAYER) #creates nodes
                                    
-print("AFTER weights")
+new_node.set_random_weights(0, NODE_COUNT_PER_LAYER) #sets weights of connections
                                    
-new_node.set_random_weights(0, NODE_COUNT_PER_LAYER)
-                                   
-new_node.prety_print(0, NODE_COUNT_PER_LAYER)         
+new_node.prety_print(0, NODE_COUNT_PER_LAYER) #prints connections and weights        
