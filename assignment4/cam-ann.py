@@ -49,7 +49,7 @@ class Node:
                                    
 new_node = Node()
                                                                  
-#new_node.make_children(0, NODE_COUNT_PER_LAYER)
+new_node.make_children(0, NODE_COUNT_PER_LAYER)
                                     
 #new_node.prety_print(0, NODE_COUNT_PER_LAYER)
                                    
